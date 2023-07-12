@@ -1,12 +1,9 @@
 import './App.css';
-import './Speech'
-// import SpeechData from './Speech';
-import SpeechRecognitionComponent from './Speech1';
+import AudioRecorder from './pages/Speech2';
 
 function App() {
   return (
-    // <SpeechData />
-    <SpeechRecognitionComponent />
+    <AudioRecorder />
   );
 }
 
